@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap'); /* Fonte para Título*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap'); /*h2, h3*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap'); /*textos */
+
+/* *** Estilos pré definidos *** */
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    
+}
+
+.div-grey {
+    background-color:#0F0F0E;
+    margin-top: 4%;
+    padding: 4%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #f5f5f5;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+/* *** Fim estilos pré definidos *** */
+
+
+/* ****** Cabeçalho ****** */
+
+/* Título */
+.header {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.header1 {
+    border-bottom-color: #f5f5f5;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Oswald', Serif;   
+}
+
+/* Menus */
+.titulo, .menu1, .menu2, .menu3 {
+    color: #f5f5f5;
+}
+
+.menu1:hover, .menu2:hover, .menu3:hover {
+    color: #FB7C24;
+}
+
+.div-menu {
+    padding-top: 2%;
+  }
+
+.menu2, .menu3 {
+    padding-left: 20px;
+}
+
+/* ****** Fim Cabeçalho ****** */
+
+/* ****** Bloco chamada ****** */
+.div-img {
+    background-color: black;
+    height: 515px;
+}
+.restaurante-img {
+    width: 99%;
+}
+
+.restaurant-nome {
+    position: absolute;
+    top: 350px;
+    left: 45%;
+    z-index: 1;
+    font-size: 50px;
+    color: white;
+}
+
+.contato {
+    position: absolute;
+    top: 530px;
+    left: 48%;
+    z-index: 1;
+    font-size: 16px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.contato:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ****** Fim Bloco chamada ****** */
+
+/* ****** Bloco Due ****** */
+.div-white {
+    background-color:#f5f5f5;
+    padding: 4%;
+    display: flex;
+}
+
+.div-due {
+    background-color: black;
+    width: 50%;
+    margin-right: 5px;
+    height: 402px;
+}
+
+
+.span-hist {
+    font-family: 'Montserrat';
+    color: #f5f5f5;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+}
+
+.div-due-img {
+    width: 50%;
+    margin-left: 5px;
+}
+
+.img-massa {
+    width: 100%;
+}
+
+/* ****** Fim Bloco Due ****** */
+
+/* ****** Bloco Comida ****** */
+
+.div-black {
+    background-color: black;
+}
+
+.span-hist-1 {
+    font-family: 'Montserrat';
+    color: #f5f5f5;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.div-three {
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.span-hist-2 {
+    font-family: 'Montserrat';
+    color: #f5f5f5;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+    padding-bottom: 20%;
+    
+}
+
+.div-1, .div-2, .div-3 {
+    width: 33.33%;
+}
+
+.div-1 {
+    background-color:#0F0F0E ;
+    margin-left: 4%;
+}
+
+.div-2 {
+    background-color: #6F5858;
+}
+
+.div-3 {
+    background-color: #F5E8E8;
+    margin-right: 4%;
+}
+
+.h3-black {
+    color: black;
+    font-weight: bold;
+}
+
+.span-hist-black {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: black;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+}
+
+/* ****** Fim Bloco Comida ****** */
+
+/* ****** Bloco Contato ****** */
+
+.div-contato {
+    background-color:#0F0F0E;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+}
+
+.div-contato-1 {
+    background-color: black;
+    width: 50%;
+}
+
+.span-hist-3 {
+    font-family: 'Montserrat';
+    color: #f5f5f5;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+    padding-bottom: 20%;
+    line-height: 2em;
+}
+
+.e-mail {
+    font-family: 'Montserrat';
+    color: #f5f5f5;
+}
+
+.e-mail:hover {
+    color: #FB7C24;
+}
+
+.div-contato-2 {
+    width: 50%;
+}
+
+.img-jantar {
+    width: 100%;
+}
+
+.div-map {
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color:#0F0F0E;
+    padding-bottom: 5%;
+}
+
+.map {
+    height:450px;
+    width: 100%;
+    margin-top: -5px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+/* ****** Fim Bloco Contato ****** */
+
+/* ****** Bloco Horário ****** */
+.div-rose {
+    background-color: #F5E8E8;
+    padding: 4%;
+    display: flex;
+}
+
+.div-due-hour {
+    background-color: black;
+    width: 50%;
+    margin-right: 5px;
+    height: 354px;
+}
+.span-hist-4 {
+    font-family: 'Montserrat';
+    color: #f5f5f5;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+    padding-bottom: 10%;
+    line-height: 2em;
+}
+
+/* ****** Fim Bloco Horário ****** */
+
+/* ****** Rodapé ****** */
+.div-rodape {
+    background-color: black;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin {
+    transition: all 0.5s;
+    color: #f5f5f5;
+    font-size: 25px;
+
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    color: #FB7C24;
+}
+.fa-twitter {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.span-hist-5 {
+    font-family: 'Montserrat';
+    color: #f5f5f5;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    display: block;
+    padding-bottom: 40px;
+    line-height: 2em;
+}
+
+/* Responsividade */
+
+/* 1920px 1080px*/
+@media screen and (min-width:1920px) { 
+
+    h3 {
+        font-size: 40px;
+    }
+
+    /* Header */
+
+    .titulo {
+        font-size: 35px;
+      }
+    
+    .menu1, .menu2, .menu3 {
+        font-size: 18px;
+    }
+
+    /* Fim Header */
+
+    /* Bloco Chamada */
+    .div-grey {
+    height: 65vh;
+    margin-top: 3%;
+    }
+
+    .div-img {
+    height: 65vh;
+      }
+
+    .restaurant-nome {
+    top: 450px;
+    left: 47%;
+    font-size: 60px;
+    }
+
+    .contato {
+    top: 630px;
+    left: 49%;
+    font-size: 18px;
+    }   
+    
+    /* Fim Bloco Chamada */
+
+    /* Bloco Due */
+
+    .div-due {
+    height: 568px;
+    }
+
+    .span-hist {
+    width: 460px;
+    font-size: 18px;
+    }
+
+    /* Fim Bloco Due */
+
+    /* Bloco Comida */
+
+    .span-hist-1 {
+    width: 950px;
+    font-size: 18px;
+    }
+
+    .span-hist-2, .span-hist-black {
+    font-size: 18px;
+    }
+
+    /* Fim Bloco Comida */
+
+    /* Bloco Contato */
+
+    .div-contato-1 {
+    padding-top: 5%;
+    }
+
+    .span-hist-3 {
+    font-size: 18px;
+    }
+
+    /* Fim Bloco Contato */
+
+    /* Bloco Horário */
+
+    .div-due-hour {
+    height: 501px;
+    }
+
+    .span-hist-4 {
+    font-size: 18px;
+    }
+
+    /* Fim Bloco Horário */
+
+    /* Rodapé */
+
+    .fa-facebook, .fa-twitter, .fa-linkedin {
+    font-size: 30px;
+    }
+    
+    /* Fim Rodapé */
+}
+/* Fim 1920px 1080px*/
+
+/* Responsividade Mobile*/
+
+/* ******  width 360 ******* */
+@media screen and (max-width:360px) { 
+
+    h3 {
+    padding-top: 15%;
+    margin-top: 0px;
+    }
+
+  /* Cabeçalho */
+
+    .titulo {
+    font-size: 16px;
+    }
+
+    .header1 {
+    border-width: 1px;
+    }
+
+    .menu1, .menu2, .menu3 {
+    font-size: 13px;
+    }
+
+    /* Fim Cabeçalho */
+
+    /* Bloco Chamada */
+
+    .restaurant-nome {
+    top: 110px;
+    left: 40%;
+    font-size: 20px;
+    }
+
+    .contato {
+    top: 170px;
+    left: 35%;
+    font-size: 14px;
+    }
+
+    .div-img {
+    background-color: black;
+    height: 150px;
+    }
+
+    /* Fim Bloco Chamada */
+
+    /* Bloco Due */
+
+    .div-white {
+    display: inherit;
+    }
+
+    .div-due {
+    width: 100%;
+    height: 340px;
+    }
+
+    .span-hist {
+    width: 300px;
+    font-size: 14px;
+    }
+
+    .div-due-img {
+    width:100%;
+    margin-left: 0px;
+    }
+
+    /* Fim Bloco Due */
+
+    /* Bloco Comida */
+
+    .span-hist-1 {
+    width: 300px;
+    font-size: 14px;
+    padding-bottom: 10%;
+    }
+
+    .div-three {
+    display: inherit;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 10%;
+    }
+
+    .div-1, .div-2, .div-3 {
+    width: 100%;
+    }
+
+    .div-1 {
+    margin-left: 0%;
+    }
+
+    .span-hist-2 {
+    font-size: 14px;
+    }
+
+    .div-3 {
+    padding-bottom: 10%;
+    }
+
+    /* Fim Bloco Comida */
+
+    /*Bloco Contato */
+
+    .div-contato {
+    display: inherit;
+    }
+
+    .div-contato-1 {
+    width: 100%;
+    }
+
+    .span-hist-3 {
+    width: 200px;
+    }
+
+    .div-contato-2 {
+    width: 100%;
+    }
+
+    /* Fim Bloco Contato */
+
+    /* Bloco Horário */
+
+    .div-rose {
+    display: inherit;
+    }
+
+    .div-due-hour {
+    width: 100%;
+    height: 354px;
+    }
+
+    .span-hist-4 {
+    width: 260px;
+    font-size: 14px;
+    }
+
+    /* Fim Bloco Horário */
+
+    /* Bloco Rodapé */
+
+    .span-hist-5 {
+    font-size: 12px;
+    }
+
+    /* Fim Bloco Rodapé */
+}
